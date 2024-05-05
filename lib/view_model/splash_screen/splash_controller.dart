@@ -4,7 +4,7 @@ import 'package:netflix/view/main_page/main_page.dart';
 class SplashController extends GetxController{
   @override
   void onInit() {
-    Future.delayed(const Duration(milliseconds: 2500), () {
+    Future.delayed(const Duration(milliseconds: 2600), () {
       Get.offAll(()=>MainPage());
     },);
     super.onInit();

@@ -14,7 +14,9 @@ class UserProfileIconWidget extends StatelessWidget {
       height: 26.h,
       width: 28.w,
       decoration: BoxDecoration(
-          color: kGreen, borderRadius: BorderRadius.circular(5.sp)),
+        color: kGreen,
+        borderRadius: BorderRadius.circular(5.sp),
+      ),
     );
   }
 }

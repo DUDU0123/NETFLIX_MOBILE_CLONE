@@ -14,7 +14,7 @@ class VideoThumbnailWidgetNewAndHot extends StatelessWidget {
     return Stack(
       children: [
         SizedBox(
-          height: screenHeight(context: context) / 4.2,
+          height: screenHeight(context: context) / 3.8,
           width: screenWidth(context: context),
           child: Image.network(image, fit: BoxFit.cover,),
         ),

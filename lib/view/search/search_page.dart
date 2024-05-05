@@ -13,7 +13,6 @@ import 'package:netflix/view_model/search/search_getx_controller.dart';
 
 class SearchPage extends StatelessWidget {
   SearchPage({super.key});
-  TextEditingController searchController = TextEditingController();
   SearchGetxController sController = Get.put(SearchGetxController());
 
   @override
@@ -50,7 +49,6 @@ class SearchPage extends StatelessWidget {
                               color: kSearchBarIconColor,
                             ),
                             keyboardType: TextInputType.text,
-                            controller: searchController,
                             backgroundColor: kGrey.withOpacity(0.3),
                             onSubmitted: (value) {
                               sController.val.value = value;

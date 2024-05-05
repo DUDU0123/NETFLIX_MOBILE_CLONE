@@ -56,7 +56,7 @@ class ComingSoonWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(
-                      width: 195.w,
+                      width: 182.w,
                       child: TextWidgetCommon(
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
